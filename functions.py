@@ -1,5 +1,8 @@
 import random
-list = [random.randint(1, 10) for i in range(10)]
+list = []
+nums = int(input('length:'))
+for i in range(nums):
+    list.append(random.randint(0, 100))
 def get_unique_number(list):
     unique = []
     for i in list:
