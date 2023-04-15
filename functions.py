@@ -1,4 +1,10 @@
-def average(numbers):
-    return sum(numbers) / len(numbers)
-numbers = int(input('num:' )), int(input('num2:')),int(input('num3:')),int(input('num4:')),int(input('num5:'))
-print(average(numbers))
+
+def avarege(numbers):
+    return sum(numbers)/len(numbers)
+numbers=[]
+nums = int(input('length:'))
+while len(numbers)<nums:
+        numbers.append(int(input('number:')))
+print(avarege(numbers)) 
+  
+
