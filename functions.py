@@ -1,4 +1,6 @@
 
+import string
+
 def count_volves(string):
     volves = 'aeiouy'
     count_volves = 0
@@ -14,7 +16,10 @@ def count_consonants(string):
             count_consonants += 1   
     return count_consonants
 string = str(input('enter text'))
-print('count_volves: ',count_volves(string))
-print('count_consonants: ',count_consonants(string))
+if string.isdigit() == True:
+    print('Enter only text: ')
+else:
+    print('count_volves: ',count_volves(string))
+    print('count_consonants: ',count_consonants(string))
 
 
