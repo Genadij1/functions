@@ -5,6 +5,4 @@ numbers=[]
 nums = int(input('length:'))
 while len(numbers)<nums:
         numbers.append(int(input('number:')))
-print(avarege(numbers)) 
-  
-
+print(avarege(numbers))
