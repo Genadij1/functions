@@ -2,14 +2,14 @@
 import string
 
 def count_volves(string):
-    volves = 'aeiouy'
+    volves = 'aeiouyAEIOUY'
     count_volves = 0
     for letter in string:
         if letter in volves:
             count_volves += 1
     return count_volves 
 def count_consonants(string):
-    consonants = 'bcdfghjklmnpqrstvwxz'
+    consonants = 'bcdfghjklmnpqrstvwxzBCDFGHJKLMNPQRSTVWXZ'
     count_consonants = 0
     for letter in string:
         if letter in consonants:
