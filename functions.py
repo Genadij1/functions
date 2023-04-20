@@ -9,7 +9,6 @@ def most_frequent(numbers):
     max_count = max(count.values())
     most_frequent_nums = [k for k, v in count.items() if v == max_count]
     return min(most_frequent_nums)
-
 numbers = [random.randint(1, 100) for _ in range(100)]
 print(numbers)
 most_frequent(numbers)
